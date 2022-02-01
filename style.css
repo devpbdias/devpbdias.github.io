@@ -1,118 +1,160 @@
 body {
-    background-color: #ffffb6;
+    background-color: #942b3b;
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
-    text-decoration-color: #23242c;
-    color: black;
+    color: #053c5e;
+
 
 }
 
 #contorno-foto {
     border-radius: 100%;
     height: 350px;
-    background-color: blue;
+    background-color: #14213d;
     padding: 5px;
-    position: relative;
-    float: left;
-    margin: 10px;
+    margin-left: 80px;
+}
+
+header {
+    background-color: #14213d;
+    padding: 5px;
+    border: blanchedalmond 3px solid;
 }
 
 #meu-nome {
     font-style: italic;
     text-align: center;
-    color: black;
+    color: #f5f3f4;
     font-size: larger;
 }
 
 nav ol li {
     display: inline-block;
-    margin-left: 50px;
+    margin-left: 30px;
+    background-color: #14213d;
+    padding: 5px;
+    border: solid 2px #f5f3f4;
 
+}
+
+nav ol li a {
+    color: #f5f3f4;
 }
 
 #resume-container {
-    width: 800px;
-    margin-left: 400px;
-    margin-top: 120px;
+    background-color: #14213d;
+    padding: 20px;
+    border: #f5f3f4 2px solid;
+    width: 600px;
+    margin-right: 100px;
+
 }
 
 #photo-resume {
-    border: #ffffb6 5px solid;
     height: 400px;
-}
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-#main-container {
-    height: 800px;
 }
 
 main ul {
+
     margin-top: 50px;
 }
 
 #info-container {
+    background-color: #14213d;
+    padding: 20px;
+    border: #f5f3f4 2px solid;
     height: 250px;
     margin-top: 50px;
+    width: 600px;
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
 }
 
 main ul#item2 li {
-    position: relative;
     margin-top: 20px;
-    margin-left: 400px;
+    margin-left: 100px;
+    color: #f5f3f4;
 
 }
 
 #skills-container {
-    height: 250px;
-    margin-top: 50px;
+    background-color: #14213d;
+    padding: 20px;
+    border: #f5f3f4 2px solid;
+    height: 300px;
+    margin-top: 20px;
+    width: 800px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
 }
 
 main ul#item3 li {
-    position: relative;
+    color: #f5f3f4;
     margin-top: 20px;
-    margin-left: 250px;
+    margin-left: 30px;
+    margin-right: 40px;
+
 }
 
 #curiosities-container {
-    height: 250px;
-    margin-top: 50px;
+    background-color: #14213d;
+    padding: 20px;
+    border: #f5f3f4 2px solid;
+    height: 220px;
+    margin-top: 20px;
+    width: 600px;
+    margin-left: 300px;
+    color: #f5f3f4;
 }
 
 main ul#item4 li {
-    position: relative;
     margin-top: 20px;
-    margin-left: 350px;
+    margin-left: 40px;
 }
 
 footer {
-     height: 250px;
-}
+    background-color: #14213d;
+    padding: 20px;
+    border: #f5f3f4 2px solid;
+    height: 200px;
+    align-items: center;
+margin-top: 20px;
+width: 400px;
+margin-left: 400px;
 
-#title5 {
-    margin: 80px;
 }
 
 nav#nav-contact {
-    margin-left: 370px;
-
-}
-
-nav ul li {
+    margin-left: 100px;
     
-    display: inline-block;
-    margin-left: 50px;
 }
 
-h3, h4 {
-    color: #23242c;
+footer nav ul li {
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 40px ;
+    margin-top: 20px;
+}
+
+h2, h3, h4 {
+    color: #f5f3f4;
     font-style: italic;
     text-align: center;
 }
 
 a {
-    color: black;
+    color: #f5f3f4;
 }
 
 p {
+    color: #f5f3f4;
     text-align: justify;
 }
